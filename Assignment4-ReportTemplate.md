@@ -536,7 +536,9 @@ Updated Mutation Score
 |      | 5\. equals : Substituted 1 with -1                                                                                                        |  NO\_COVERAGE |  KILLED |                                                                              |
 |      | 6\. equals : Substituted 1 with -1                                                                                                        |  NO\_COVERAGE |  KILLED |                                                                              |
 |      | 7\. equals : Substituted 1 with 2                                                                                                         |  NO\_COVERAGE |  KILLED |                                                                              |
-|      | 8\. equals : Substituted 1 with 0                                                                                                         |  NO\_COVERAGE |  KILLED |                                                                              |
+|      | 8\. equals : Substituted 1 with 0                                                                                                         |  NO\_COVERAGE |  KILLED | 
+  
+
 Full Results at [RangeTest results](https://github.com/seng438-winter-2022/seng438-a4-bjaron/blob/Angeloo01-mutation-testing/PitestResultRange.csv)
 
 
