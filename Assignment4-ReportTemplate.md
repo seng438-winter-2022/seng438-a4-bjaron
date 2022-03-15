@@ -16,7 +16,7 @@
 
 # Report all the statistics and the mutation score for each test class
 
-## DataUtilitiesTest
+### DataUtilitiesTest
 Initial Mutation Score
 
 ![image](https://user-images.githubusercontent.com/48339672/158462349-e56d9df1-becf-40b7-8d6e-d75e6f537ab8.png)
@@ -25,7 +25,7 @@ Updated Mutation Score
 
 ![image](https://user-images.githubusercontent.com/48339672/158471901-46e880e0-a083-4112-86ba-0623632f8892.png)
 
-### New Mutation Accounted for
+#### New Mutation Accounted for
 
 | Line | Mutation                                                                                                                                      | Initial       | New         | Code                                                                          |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------- | ----------------------------------------------------------------------------- |
@@ -276,9 +276,33 @@ Updated Mutation Score
 
 Full results at [DataUtilities Results](https://github.com/seng438-winter-2022/seng438-a4-bjaron/blob/Angeloo01-mutation-testing/PitestResultDataUtilitites.csv)
 
+### RangeTest
+
+Initial Mutation Score
+
+![image](https://user-images.githubusercontent.com/48339672/158476820-e2482157-84d3-4f37-b6a7-964cc0d675ea.png)
+
+Updated Mutation Score
+
+![image](https://user-images.githubusercontent.com/48339672/158483914-49a58453-aae7-4aec-8cd7-0801bf208d81.png)
+
+
+
+
+
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
+
+Example Equivalent Mutants for Range (getLength() Method
+
+12. Incremented (a++) double field upper → SURVIVED
+13. Incremented (a++) double field lower → SURVIVED
+14. Decremented (a--) double field upper → SURVIVED
+15. Decremented (a--) double field lower → SURVIVED
+
+These Mutants are never accessed since the values are used and returned before the increment/decrement are applied.
+
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
