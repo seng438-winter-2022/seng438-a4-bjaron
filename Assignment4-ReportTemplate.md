@@ -559,11 +559,13 @@ These Mutants are never accessed since the values are used and returned before t
 # A discussion of what could have been done to improve the mutation score of the test suites
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
-
+Mutation testing tests the strength of the test cases themseleves rather than the SUT. The mutation testing is a form of white-boxing testing that allows the test creators to test whether the test suite iteself will detect changes to the original SUT. Mutants are injected into the SUT to determine whether the test cases will pass or fail. Test cases that survive the mutation are weaker tests as they do not differ from the desired output when mutants are injected in the original SUT. Mutation testing is advantageous in determining the strength of the test cases, and whether the tests themselves are strong. The disadvantages of using mutation testing is that it can take a long time to create the mutations if created manually, or if using a automated testing mechanism like Pitest, the creation and execution of the mutation tests can take time, and have high CPU usage.
+  
 # Explain your SELENUIM test case design process
 
 # Explain the use of assertions and checkpoints
 
+  
 # how did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
