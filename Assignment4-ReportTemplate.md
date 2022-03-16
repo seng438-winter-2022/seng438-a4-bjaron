@@ -561,8 +561,10 @@ These Mutants are never accessed since the values are used and returned before t
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
 # Explain your SELENUIM test case design process
+The GUI testings using Selenium was done through exploratory testing and black box testing on the website sportchek.ca. Some functionalities that were tested includes the search function and viewing the cart. Our test case design process consisted of individual group members going through the site and finding important functionalities that should be tested. Since Selenium captures and replays user actions through the execution of scripts, a semi-automated approach was used. After finding a functionality that we want to test, we use the Selenium record feature to record our actions while asserting/verifying components of the page. We then run the test through the script which allows us to see if the asserts/verify passes.
 
 # Explain the use of assertions and checkpoints
+
 
 # how did you test each functionaity with different test data
 
