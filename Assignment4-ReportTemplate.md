@@ -94,10 +94,10 @@ Our strategy for designing our test cases for mutation testing is as follows:
 Mutation testing tests the strength of the test cases themseleves rather than the SUT. The mutation testing is a form of white-boxing testing that allows the test creators to test whether the test suite iteself will detect changes to the original SUT. Mutants are injected into the SUT to determine whether the test cases will pass or fail. Test cases that survive the mutation are weaker tests as they do not differ from the desired output when mutants are injected in the original SUT. Mutation testing is advantageous in determining the strength of the test cases, and whether the tests themselves are strong. The disadvantages of using mutation testing is that it can take a long time to create the mutations if created manually, or if using a automated testing mechanism like Pitest, the creation and execution of the mutation tests can take time, and have high CPU usage.
   
 # Explain your SELENUIM test case design process
+The GUI testings using Selenium was done through exploratory testing and black box testing on the website sportchek.ca. Some functionalities that were tested includes the search function and viewing the cart. Our test case design process consisted of individual group members going through the site and finding important functionalities that should be tested. Since Selenium captures and replays user actions through the execution of scripts, a semi-automated approach was used. After finding a functionality that we want to test, we use the Selenium record feature to record our actions while asserting/verifying components of the page. We then run the test through the script which allows us to see if the asserts/verify passes.
 
 # Explain the use of assertions and checkpoints
 
-  
 # how did you test each functionaity with different test data
 Each group member had to handle two different functionalities, each following through different steps in order to gather the test data on the specific functionalities. When creating the test data for each functionality, wherever there was editable fields, we tested different inputs in order to make sure the functionality worked as intended.
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
