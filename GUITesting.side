@@ -1,0 +1,450 @@
+{
+  "id": "6e35679d-831d-42c1-8bba-8a492a6e4a9a",
+  "version": "2.0",
+  "name": "GUITesting",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "71347e74-654d-41b4-81b6-3f77547363f1",
+    "name": "TestChangeLocation",
+    "commands": [{
+      "id": "86e9cf7c-7499-4cbb-9525-51b38cbd74c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8eba2307-7392-42b7-8b90-2e73e2cb5140",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7d59f18-3646-46e5-9eb0-10857b850234",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a55e275-2bca-4236-b79f-9f0e27f0cdec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "106826ec-e863-47b0-8938-e7ebe6ff2c6d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7bb2c62-2884-4d67-b60b-e47c12b4d5bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "770153ee-159d-4bf3-9852-b05593d0b4d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1974f075-7fa8-4735-a166-d0cc37257211",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12887723-cf82-4f8f-aa4e-d922f9ffd0ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e30687c7-d0d6-4d1a-9047-35f1ef07c6a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a437d26d-4813-4c9d-9e9a-433b685c8ff8",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b4f565-b8be-4dd2-bc72-1cee76b58642",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VANCOUVER,BC"
+    }, {
+      "id": "dcaa1f84-979a-40c1-b159-081450721ce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__summary-content",
+      "targets": [
+        ["css=.pickup-modal-choose__summary-content", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be0d913d-5f61-49e4-a81a-f0e667ae8e35",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.pickup-modal-choose__content-wrapper",
+      "targets": [
+        ["css=.pickup-modal-choose__content-wrapper", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "374,274"
+    }, {
+      "id": "40d14d08-fc05-4983-836c-c8818fe099e9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.pickup-modal-choose__content-wrapper",
+      "targets": [
+        ["css=.pickup-modal-choose__content-wrapper", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "374,274"
+    }, {
+      "id": "a9de35cd-d1dc-4f29-8514-8436fef0bec5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.pickup-modal-choose__content-wrapper",
+      "targets": [
+        ["css=.pickup-modal-choose__content-wrapper", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "374,274"
+    }, {
+      "id": "3ed8b0c0-05b0-45cc-9af9-1d8b911333c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-store-list__item:nth-child(3) > .pickup-store-list__default-store",
+      "targets": [
+        ["css=.pickup-store-list__item:nth-child(3) > .pickup-store-list__default-store", "css:finder"],
+        ["xpath=(//a[contains(text(),'Set as my store')])[2]", "xpath:link"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "384639bf-44c3-48a1-8ad7-150f56e64f61",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Chinook Centre Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": "Chinook Centre Sport Chek"
+    }]
+  }, {
+    "id": "f553da84-8cbb-4259-989c-92d92c6ef6e7",
+    "name": "TestRegister",
+    "commands": [{
+      "id": "aa35f673-8ae5-4f38-89dc-d52ca279c101",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a1ff2cc-d647-464e-a0c0-8cbb4154e2bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1368x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad0ebf1b-6798-46cd-9eb2-69527f036894",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.enterprise-account__button_register",
+      "targets": [
+        ["css=.enterprise-account__button_register", "css:finder"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c6ff01-9db3-474a-b545-718cf3c1580e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-account__button_register",
+      "targets": [
+        ["css=.enterprise-account__button_register", "css:finder"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a0a36a-4e9b-4b9d-84bf-32241e2ce6c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#register-site-login .gigya-input-text",
+      "targets": [
+        ["css=#register-site-login .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='register-site-login']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29484151-9dfc-48c7-b735-c7cb36f260cb",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=#register-site-login .gigya-input-text",
+      "targets": [
+        ["css=#register-site-login .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='register-site-login']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c22f44f-d580-4276-89c3-366911f2704b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-register-form > .gigya-layout-row > .gigya-composite-control:nth-child(4)",
+      "targets": [
+        ["css=#gigya-register-form > .gigya-layout-row > .gigya-composite-control:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='gigya-register-form']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66fbd39b-5df3-4daa-b2a7-34cbc47c3caa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#register-site-login .gigya-input-text",
+      "targets": [
+        ["css=#register-site-login .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='register-site-login']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55969793-39d6-4a95-86ee-1aee9f7d8fd8",
+      "comment": "",
+      "command": "type",
+      "target": "css=#register-site-login .gigya-input-text",
+      "targets": [
+        ["css=.gigya-valid", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='register-site-login']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "john@gmail.com"
+    }, {
+      "id": "73b42ead-77d5-40b0-a45d-080f14fc4b98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwd-field-parent-container > .gigya-input-password",
+      "targets": [
+        ["css=.pwd-field-parent-container > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73853bf-f086-4936-8aba-8a54a54a3246",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=.pwd-field-parent-container > .gigya-input-password",
+      "targets": [
+        ["css=.pwd-field-parent-container > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "963528aa-bae4-455d-9b2b-6b0d2267c162",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=.pwd-field-parent-container > .gigya-input-password",
+      "targets": [
+        ["css=.pwd-field-parent-container > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f26efef5-0a3c-4df6-988b-f0243f55e3f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwd-field-parent-container > .gigya-input-password",
+      "targets": [
+        ["css=.pwd-field-parent-container > .gigya-input-password", "css:finder"],
+        ["xpath=(//input[@name='password'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24f3fcc5-6870-447c-829a-db193535d5ff",
+      "comment": "",
+      "command": "type",
+      "target": "css= .pwd-field-parent-container > .gigya-input-password",
+      "targets": [
+        ["css=.gigya-valid:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "JAR$76bald"
+    }, {
+      "id": "d56a5266-50ec-4a40-881e-e0f619e6c0c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=gigya-password-90574179967216050",
+      "targets": [
+        ["id=gigya-password-90574179967216050", "id"],
+        ["css=#gigya-password-90574179967216050", "css:finder"],
+        ["xpath=//input[@id='gigya-password-90574179967216050']", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1531217b-fdd0-46f3-a6c3-c218fd9bf81d",
+      "comment": "",
+      "command": "type",
+      "target": "id=gigya-password-90574179967216050",
+      "targets": [
+        ["id=gigya-password-90574179967216050", "id"],
+        ["css=#gigya-password-90574179967216050", "css:finder"],
+        ["xpath=//input[@id='gigya-password-90574179967216050']", "xpath:attributes"],
+        ["xpath=//div[@id='password-row']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[3]/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "JAR$76bald"
+    }, {
+      "id": "ace4d2f0-8a2a-4128-a3a1-5f33e174d3bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ciam-consent-visible > .gigya-label",
+      "targets": [
+        ["css=.ciam-consent-visible > .gigya-label", "css:finder"],
+        ["xpath=//div[@id='register-site-login']/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b4ae074-2a93-48df-bc1d-fe5f98c778e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#register-site-login .gigya-input-submit",
+      "targets": [
+        ["css=#register-site-login .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='CREATE TRIANGLE ID']", "xpath:attributes"],
+        ["xpath=//div[@id='register-site-login']/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6025593-9c0f-4a18-b8d1-33944ad18481",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
