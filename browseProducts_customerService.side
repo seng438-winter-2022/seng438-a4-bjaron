@@ -1,0 +1,520 @@
+{
+  "id": "1968177f-1a5b-48ec-8c9f-d5e3be9fbf89",
+  "version": "2.0",
+  "name": "Sportchek",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "6fa9d4b5-7bb9-4787-ba13-9cdff7cc631d",
+    "name": "browseProduct",
+    "commands": [{
+      "id": "a809bfef-c219-4d02-8cec-be57efb76138",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3666a6c-5e66-4d82-9254-4ba30e93a433",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1387x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8936222-1b13-4cd6-a6bb-4e52ce72bc8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-nav__item:nth-child(8) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(8) .main-menu__text", "css:finder"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16c29bcb-5345-4d33-bed6-2d610a66096d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Apple Watch Series 7",
+      "targets": [
+        ["linkText=Apple Watch Series 7", "linkText"],
+        ["css=.page-nav__list:nth-child(2) > .page-nav__item:nth-child(4) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple Watch Series 7')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/electronics/apple-watch/series-7.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apple Watch Series 7')]", "xpath:innerText"]
+      ],
+      "value": "Apple Watch Series 7"
+    }, {
+      "id": "169f58dc-dc4c-444d-bb7a-a1b30e735f24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apple Watch Series 7",
+      "targets": [
+        ["linkText=Apple Watch Series 7", "linkText"],
+        ["css=.page-nav__list:nth-child(2) > .page-nav__item:nth-child(4) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple Watch Series 7')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/electronics/apple-watch/series-7.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apple Watch Series 7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d86d8801-f300-48d3-96f9-bee819583512",
+      "comment": "",
+      "command": "click",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11a131db-eaf7-4691-b7a9-d69cb70d8db3",
+      "comment": "",
+      "command": "click",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11bedbe1-2611-43e5-bc07-a298dc689fed",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90912b3a-edf7-4227-84af-06e9a826e238",
+      "comment": "",
+      "command": "click",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2970e7a-86f4-44e7-9e24-fecc8a90652d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "APPLE WATCH SERIES 7 GPS & LTE"
+    }, {
+      "id": "bf59e438-d92f-4986-9f80-043290310537",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.product-grid__list-item:nth-child(1) .product-title-text",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(1) .product-title-text", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div[3]/div/ul/li/div/div/div[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span/span", "xpath:position"]
+      ],
+      "value": "Apple Watch S7 GPS+LTE 45mm - Midnight"
+    }, {
+      "id": "438fd759-76fa-4f5e-9619-3e8467f8cf4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(1) .product-title-text",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(1) .product-title-text", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div[3]/div/ul/li/div/div/div[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af35fb9-8693-41e4-a66a-ac73c1481c32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=svg:nth-child(2)",
+      "targets": [
+        ["css=svg:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f239532-8fba-45fd-8b79-6ae708cb2e6d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=svg:nth-child(2)",
+      "targets": [
+        ["css=svg:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0f6149-6b85-4703-a191-45ee0e9b4ebc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bv_stars_component_container > svg:nth-child(1)",
+      "targets": [
+        ["css=.bv_stars_component_container > svg:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "980c314f-dc08-44ee-a9ae-5bed34b19bd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-detail__title",
+      "targets": [
+        ["css=.product-detail__title", "css:finder"],
+        ["xpath=//div[@id='mediaViewer']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/section/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa4e45e4-ffb0-428d-9b5a-c7d74057e714",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.global-page-header__title",
+      "targets": [
+        ["css=.global-page-header__title", "css:finder"],
+        ["xpath=//div[@id='mediaViewer']/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Apple Watch S7 GPS+LTE 45mm')]", "xpath:innerText"]
+      ],
+      "value": "Apple Watch S7 GPS+LTE 45mm"
+    }, {
+      "id": "4645a679-c37e-4bb5-b702-b5304a961faf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-detail__background-wrapper",
+      "targets": [
+        ["css=.product-detail__background-wrapper", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7502ec5f-3464-462e-b10a-1820b3c01b10",
+      "comment": "",
+      "command": "click",
+      "target": "id=qty-selector",
+      "targets": [
+        ["id=qty-selector", "id"],
+        ["name=quantity", "name"],
+        ["css=#qty-selector", "css:finder"],
+        ["xpath=//input[@id='qty-selector']", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10cd4633-d135-485d-821b-ddad53b0bd20",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=qty-selector",
+      "targets": [
+        ["id=qty-selector", "id"],
+        ["name=quantity", "name"],
+        ["css=#qty-selector", "css:finder"],
+        ["xpath=//input[@id='qty-selector']", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1aa3021e-1035-44c2-bc69-ac77f1450353",
+    "name": "customerService",
+    "commands": [{
+      "id": "1ce8f6ff-a156-4fb3-b180-fcb9666b1dcd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88c682fe-89e7-42c4-8fd7-f615705a5926",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1387x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42660fe0-fb29-4d97-8ad9-f9ef1b6368db",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cac3c59-71f7-4bcf-b424-ef4415e2b71a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "670b13a3-71a0-4305-8454-0543cb77a592",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3669bb25-2075-4260-af46-2b6eb65004ad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3afa9d11-2f5b-4973-85c3-0305a2f00581",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online Customer Service",
+      "targets": [
+        ["linkText=Online Customer Service", "linkText"],
+        ["css=.customerServiceLinks .footer-section__menu-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Online Customer Service')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'help-desk/online-store-information/contact-us.html')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online Customer Service')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cffaecc6-04a3-4c89-88f5-c39e4a62043a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.contact-us__button_show-form",
+      "targets": [
+        ["css=.contact-us__button_show-form", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74b6af2-618e-499a-b647-1adbcb7c2ead",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contact-us__button_show-form",
+      "targets": [
+        ["css=.contact-us__button_show-form", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86cc5abe-a457-4fa9-9267-3200436acd84",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.label-set:nth-child(1) > .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff074db-e2be-4455-b601-1f734698fac5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.label-set:nth-child(2) > .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7fbfe0-a1a1-4b42-8fb1-6fffd66ce4ed",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.label-set:nth-child(2) > .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79bdca14-dc9b-4c50-acd0-6c6dd5110308",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.contact-us__phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab47c87-dfb7-4fd2-b96d-129c5805659e",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=orderNumber",
+      "targets": [
+        ["name=orderNumber", "name"],
+        ["css=.label-set__text-field:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='orderNumber']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[4]/input", "xpath:idRelative"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35ce570a-7b8a-4a1b-8265-672dab1d325d",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=subject",
+      "targets": [
+        ["name=subject", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='subject']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[5]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Select\nOrder Inquiries\nReturns\nMy Account Information\nPlacing an Order\nGift Certificates and Promotions\nProduct Questions\nOther')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82771f2d-a558-45b8-aab9-6f666d4e3386",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.label-set__textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6dff7fe-d41e-4ebb-8846-c1e41042062d",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.label-set:nth-child(6)",
+      "targets": [
+        ["css=.label-set:nth-child(6)", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]", "xpath:idRelative"],
+        ["xpath=//label[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa55445a-f348-4d0c-8998-ffee234c05d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label-set:nth-child(6)",
+      "targets": [
+        ["css=.label-set:nth-child(6)", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]", "xpath:idRelative"],
+        ["xpath=//label[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6c2990-9d11-4a26-ba14-3501ccba2685",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.label-set__textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f0b52b-66bf-4865-bbab-de513dee3ff5",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.label-set__textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0986ddc3-00e6-4237-8c82-6947c015329f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.label-set__textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb0f007-ee94-44a9-8d92-eb32271d14e7",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.label-set__textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div[2]/div/section/div[2]/div/form/label[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "698ae45e-88a1-4985-860a-ee8d2656034a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6fa9d4b5-7bb9-4787-ba13-9cdff7cc631d"]
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
