@@ -97,7 +97,7 @@ Our strategy for designing our test cases for mutation testing is as follows:
 # Explain the use of assertions and checkpoints
 
 # how did you test each functionaity with different test data
-
+Each group member had to handle two different functionalities, each following through different steps in order to gather the test data on the specific functionalities. When creating the test data for each functionality, wherever there was editable fields, we tested different inputs in order to make sure the functionality worked as intended.
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
