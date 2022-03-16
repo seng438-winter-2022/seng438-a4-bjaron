@@ -1,0 +1,180 @@
+{
+  "id": "12269353-ea3a-49a7-86c6-325e1a01a851",
+  "version": "2.0",
+  "name": "SENG438_A4",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "c5d634be-5cd0-43c7-9bd1-0e63ebe0310f",
+    "name": "Search Header Test",
+    "commands": [{
+      "id": "188e72f5-3696-43f5-9a1d-f53e28e7be21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d9879b-1418-4181-be41-0710f7cf2759",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "834x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb80cfd8-83fd-4fab-b5bf-8d6a18e0d5c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-search__input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "326b9c64-20c5-4a6f-bcd4-15ef3becf5f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00f2488e-ddde-4635-a622-80def40df390",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.header-search__input",
+      "targets": [],
+      "value": "123"
+    }, {
+      "id": "e5ee90e8-5181-40fd-8a8b-063d0d18c50a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__submit",
+      "targets": [
+        ["css=.header-search__submit", "css:finder"],
+        ["xpath=//input[@value='SEARCH']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68003b2-cde5-4f06-a8fc-2b143daaa61e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'SEARCH RESULTS: 123')]", "xpath:innerText"]
+      ],
+      "value": "SEARCH RESULTS: 123"
+    }]
+  }, {
+    "id": "7ddda474-0a4d-45ed-ac71-0adfe296cd82",
+    "name": "Sign In Test",
+    "commands": [{
+      "id": "3b9a3e4b-ed51-4b19-b69b-e34a7a22105c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed861104-a612-49a5-8600-de7426db5b1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "834x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27e11a2e-8362-449f-a75f-17a0f3553e7b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "064331b7-0856-4906-aad1-864bfdf31bbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd3bd89-92b0-42d4-9815-c6896a36dda7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5d58dae-3300-4d69-a8cf-dcc50ce0aaff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-account-icon__dropdown-item-sign-in",
+      "targets": [
+        ["css=.header-account-icon__dropdown-item-sign-in", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cce1650-fb7a-4d00-8bd1-762a8d8b0789",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='SIGN IN']", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da40619-899c-46d8-bfc6-5e621c6cd900",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.gigya-error-msg-active:nth-child(2)",
+      "targets": [
+        ["css=.gigya-error-msg-active:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'This field is required.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba23b30b-b32c-4809-92b0-b5ce1f2f78d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.gigya-error-msg:nth-child(3)",
+      "targets": [
+        ["css=.gigya-error-msg:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e5534748-372e-4ab7-a294-1aa9adc03c2e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5d634be-5cd0-43c7-9bd1-0e63ebe0310f"]
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
