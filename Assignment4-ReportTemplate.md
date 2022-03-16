@@ -4,10 +4,10 @@
 
 | Group \#:       |   |
 |-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Student Names:  | Angelo Gonzales  |
+|                 | Jaron Baldazo |
+|                 | Manjot Singh  |
+|                 | Dave Sharma  |
 
 # Introduction
 
