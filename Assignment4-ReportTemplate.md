@@ -103,8 +103,12 @@ Each group member had to handle two different functionalities, each following th
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
-
-
+Team work was divided equally, as all team members worked together one each part of the lab. Each member of the team went through the familirization of mutation testing, and were responsible on checking the coverage of the tests. For the Selenium and Siklux testing, each group member created two tests for each, testing the functionality of the sportchek website. Finally, the lab report writeup, was split equally between members. hroughout the lab, each member was responsible for keeping each other accountable, and make sure that the work was done in time.
+  
 # Difficulties encountered, challenges overcome, and lessons learned
+The main lessons that our group leaned throughout this assignment was the usage of mutation and GUI testingg. In this assignment, we were introduced with testing tools such as Pitest, Selenium and Siklux to further improve our understanding with the different forms of testing. 
 
+A difficulty that we encountered was the usage of Pitest, as two members of our group did not manage to get the pitest running due to errors with JDK versions. This led us to use the test results from the other members while the rest of the team worked on unit tests together. When using Selenium and Siklux for the first time, a learning process was undertaken in order to get used to the tools.
+  
 # Comments/feedback on the lab itself
+This assignment was helpful in familiarizing ourselves with mutation and user interface testing through the use of Pitest, Selenium, and Siklux. The handout was easy to follow allowing us to understand the usefulness of mutation and GUI testing.
