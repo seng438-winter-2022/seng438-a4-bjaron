@@ -1,0 +1,97 @@
+{
+  "id": "d622cf9a-3274-4ac9-84a5-3638488480a7",
+  "version": "2.0",
+  "name": "Navigation",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "dc8f7890-2911-49e5-87ff-aa8690379fe7",
+    "name": "Untitled",
+    "commands": [{
+      "id": "5ee57caa-89e1-43e0-ba48-a131def45075",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42ef2b8c-a96a-4054-8b50-fb3fe271c4ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1381x885",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed0f476c-68f4-41cf-8531-e24258cfff9d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(1) > .row-sth",
+      "targets": [
+        ["css=a:nth-child(1) > .row-sth", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75105426-4e07-4521-9597-1db3f7e4a899",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a:nth-child(1) > .row-sth",
+      "targets": [
+        ["css=a:nth-child(1) > .row-sth", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3351d27f-0ca4-4e47-8b15-44da343cc512",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kids",
+      "targets": [
+        ["linkText=Kids", "linkText"],
+        ["css=.page-nav__item:nth-child(5) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/kids')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kids')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc0ce72-c28a-4718-97ec-f06a68766535",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Boys (Age 7-16)",
+      "targets": [
+        ["linkText=Boys (Age 7-16)", "linkText"],
+        ["css=.page-nav__section:nth-child(1) > .page-nav__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Boys (Age 7-16)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categories/kids/boys.html')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Boys (Age 7-16)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0086dcdf-835a-4c07-bc39-024e1e9e2d61",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=global-page-header__title",
+      "targets": [
+        ["id=global-page-header__title", "id"],
+        ["css=#global-page-header__title", "css:finder"],
+        ["xpath=//h1[@id='global-page-header__title']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "BOYS' SHOES & CLOTHING"
+    }]
+  }],
+  "suites": [{
+    "id": "301df6d8-869d-4c6f-9014-2f2f36c5e8f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc8f7890-2911-49e5-87ff-aa8690379fe7"]
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}

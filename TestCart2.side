@@ -1,0 +1,107 @@
+{
+  "id": "be75b238-c41c-4d2a-9450-3c93078b65ab",
+  "version": "2.0",
+  "name": "TestCart2",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "0eb483dc-8222-4fa5-bd2d-c227d54b8cda",
+    "name": "Untitled",
+    "commands": [{
+      "id": "33dc964f-8902-487e-8793-fbc68f4dc43c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6c0c5cf-16f3-4a77-a91f-e593e5619a8b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57000104-e0c1-42d5-98ee-c3325bbc34ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "894x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd12cdf7-4179-4236-9baf-98231b2abe5f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.lazy-img_loaded:nth-child(4)",
+      "targets": [
+        ["css=.lazy-img_loaded:nth-child(4)", "css:finder"],
+        ["xpath=//img[@alt=\"Spring Break. Family time starts now. We've got everything you need to keep active. Shop Now.\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div[2]/div[2]/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c417f0-15bd-4517-bf45-6ac933174ce9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.lazy-img_loaded:nth-child(4)",
+      "targets": [
+        ["css=.lazy-img_loaded:nth-child(4)", "css:finder"],
+        ["xpath=//img[@alt=\"Spring Break. Family time starts now. We've got everything you need to keep active. Shop Now.\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div[2]/div[2]/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26d6cd69-8f76-40e6-a9e6-3420fd02694d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[2]/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2c2566-15d6-4b4f-9877-ad88d4b81690",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[2]/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d91f9014-7b56-42fb-9022-ac25d4afa24e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c762725f-3505-4ba9-882a-0cfc4fae325a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0eb483dc-8222-4fa5-bd2d-c227d54b8cda"]
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
